@@ -1,0 +1,40 @@
+
+# level north korea
+# Image Background and images for blocks
+
+START_LEVEL
+level_name:North Korea
+ball_velocities:45,500 -45,500 -30,500 30,500
+background:image(background_images/nkbg.jpg)
+paddle_speed:650
+paddle_width:160
+block_definitions:definitions/nk.txt
+blocks_start_x:50
+blocks_start_y:50
+row_height:100
+num_blocks:13
+START_BLOCKS
+l-l-l-l
+-l-l-l-
+l-l-l-l
+END_BLOCKS
+END_LEVEL
+
+# the end level
+
+START_LEVEL
+level_name:Close to the end
+ball_velocities:45,500
+background:image(background_images/end.jpg)
+paddle_speed:650
+paddle_width:160
+block_definitions:definitions/end.txt
+blocks_start_x:50
+blocks_start_y:50
+row_height:100
+num_blocks:13
+START_BLOCKS
+mmmmmmm
+mmmmmmm
+END_BLOCKS
+END_LEVEL

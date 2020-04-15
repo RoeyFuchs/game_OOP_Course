@@ -1,0 +1,2 @@
+# block definitions
+bdef symbol:m width:100 height:50 hit_points:1 fill:image(block_images/pirate.png) stroke:color(white)
